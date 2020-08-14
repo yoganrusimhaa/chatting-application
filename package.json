@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a real time chat application using socket.io",
   "main": "server.js",
+  "engines": {"node": "12.16.2"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
