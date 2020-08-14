@@ -7,7 +7,7 @@ var ip = require('ip');
 //const { Db } = require('mongodb');
 //const { dirname } = require('path');
 var mongo = require('mongodb').MongoClient;
-var port= process.env.PORT || 8080 ;
+var port= process.env.PORT || '8080' ;
 
 //connect to mongo
 mongo.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/chatdb' ,function(err,db){
