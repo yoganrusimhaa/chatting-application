@@ -33,7 +33,7 @@
       "port": 8080
     },
     "db": {
-      "url": "mongodb://localhost:27017/chatdb"
+      "url": "mongodb+srv://user1:user1234@chatdb.cz0uu.mongodb.net/chatdb?retryWrites=true&w=majority"
     }
   }
 }
