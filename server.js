@@ -77,7 +77,7 @@ mongo.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/chatdb' ,fun
 })
 
 app.get('/', function(req,res){
-    res.sendFile(path.join(__dirname, '../chatting-application/index.html'));
+    res.sendfile('index.html');
 })
 
 server.listen(port,function(){
