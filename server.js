@@ -10,7 +10,7 @@ var mongo = require('mongodb').MongoClient;
 var port=8080;
 
 //connect to mongo
-mongo.connect('mongodb://localhost:27017/chatdb' ,function(err,db){
+mongo.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/chatdb' ,function(err,db){
     
     if(err){
         throw err;
